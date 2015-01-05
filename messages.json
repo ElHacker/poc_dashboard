@@ -13,5 +13,10 @@
     "status": "down",
     "body": "Ship is failing!!!",
     "created_on": "2012-12-04T12:08:33Z"
+  },
+  {
+    "status": "good",
+    "body": "Battlestation fully operational",
+    "created_on": "2012-12-03T18:11:55Z"
   }
 ]
