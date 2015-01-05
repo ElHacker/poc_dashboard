@@ -10,6 +10,11 @@
     "created_on": "2012-12-05T12:08:33Z"
   },
   {
+    "status": "minor",
+    "body": "Almost done reticulating splines",
+    "created_on": "2012-12-05T12:08:33Z"
+  },
+  {
     "status": "down",
     "body": "Ship is failing!!!",
     "created_on": "2012-12-04T12:08:33Z"
