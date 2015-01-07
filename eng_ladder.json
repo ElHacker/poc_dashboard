@@ -1,0 +1,34 @@
+[
+  {
+    "position": "Software Engineer II",
+    "experience": "2+",
+    "first": "All of the above+ Programming skills in a general purpose language. Basic competency in algorithms and data structures. Able to communicate well with technical staff.",
+    "second": "All of the above+ Design solutions at the component level. Can estimate time to implement. Applies Ooyala engineering principles and techniques. Work with product managers to understand feature requirements, and drive their detailed definition.",
+    "third": "Generally limited to project and/or team level. Requires mentoring and some guidance.",
+    "fourth": "Successfully launch 2 new services or products with little to no supervision, on time and with high quality. Has demonstrated initiative, flexibility and the ability to meet team defined goals and deadlines consistently and over at least 12 months. Has displayed good programming skills, domain knowledge, and has demonstrated the ability to generate new ideas and innovate in ways that benefit Ooyala."
+  },
+  {
+    "position": "Architect",
+    "experience": "18+",
+    "first": "All of the above+ Complete mastery of all of Ooyala's systems and related technologies. Key contributor to company wide product and technology strategy. Typically internally promoted due to the Ooyala specific skills needed.",
+    "second": "All of the above+ Will be a key decision maker and leader in shaping Ooyala's technical direction. Works with executive level staff to help define Ooyala's technology strategies. Leads data and technical investigations and tracks metrics that effect the performance and growth of the Ooyala Platform.",
+    "third": "Helps set company goals and technology strategy. Company wide impact on effectiveness and how work is done and measured.",
+    "fourth": "NA"
+  },
+  {
+    "position": "Sr. Software Engineer",
+    "experience": "5+",
+    "first": "All of the above+ Demonstrates strong analytical abilities. Demonstrates expertise in at least one area/field of specialty that is relevant to Ooyala. Breaks down complex problems which enables better team estimates over time.",
+    "second": "All of the above+ Can identify, communicate and solve complex problems. Takes the initiative in problem solving and system improvements. Capable of analysis and modifications of unfamiliar technologies/code bases. Successfully lead projects involving several developers. Proven ability to mentor junior team members. Expresses and promote team culture and company values.",
+    "third": "Team and project level. Gets involved in cross-team efforts. Mentoring less senior team members. Improves how the team operates.",
+    "fourth": "Has demonstrated a good business acumen as both arbitrator and advocate for technical/user issues. Has displayed a strong understanding of Ooyala's domain. Has consistently and reliably delivered and led multiple successful projects. Demonstrates leadership by driving completion of team commitments."
+  },
+  {
+    "position": "Staff Engineer",
+    "experience": "8+",
+    "first": "All of the above+ Strong experience with high traffic web systems design and development, preferably with extensive knowledge of Unix/Linux. Demonstrate positive influence across the team, making other engineers better and more effective. Exceptional organizational skills.",
+    "second": "All of the above+ Guides technical efforts of several project teams and can work independently to meet company objectives. Demonstrate leadership designing and building systems that address significant problems faced by Ooyala. Shapes team culture, promotes company values and instills engineering best practices.",
+    "third": "Influencer in projects, team and across teams and organizations. Mentors, coaches and participates actively in growing other peoples' careers. Has high impact on team effectiveness and technology selection.",
+    "fourth": "Recognized as a leader designing and building systems that address complex technical or product challenges. Can solve problems that have little to no precedence. Demonstrates leadership by driving completion of cross-team project commitments. Has been a valuable resource as a mentor and trainer for technical employees within the company."
+  }
+]
