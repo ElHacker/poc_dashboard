@@ -1,18 +1,72 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <title>Ooyala Dashboard</title>
-</head>
-  <h1>Ooyala Dashboard</h1>
+  <head>
+    <title>Ooyala Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost:8080/dashboard.css">
+  </head>
 
-  <!-- embed github status dashboard klip  -->
-  <div id="kf-embed-container-fe9036c00c890cfddccd1693f2d382ab"></div>
-  <script type="text/javascript" src="https://ae0521ba008c6c6dd67f-667e6d5e490a1bc46688be42ea525d83.ssl.cf1.rackcdn.com/kf_embed_api-20131030.js"></script>
-  <script type="text/javascript">
-    KF.embed.embedKlip({
-      profile : "fe9036c00c890cfddccd1693f2d382ab",
-      settings : {"width":634,"theme":"light","borderStyle":"round","borderColor":"#cccccc"},
-      title : "Github Status"
-    });
-  </script>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fuid">
+        <div class="nav-header">
+          <a class="navbar-brand" href="#">Ooyala Dashboard</a>
+        </div>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Dashboard</h1>
+          <!-- embed github status dashboard klip  -->
+          <div id="kf-embed-container-fe9036c00c890cfddccd1693f2d382ab"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://ae0521ba008c6c6dd67f-667e6d5e490a1bc46688be42ea525d83.ssl.cf1.rackcdn.com/kf_embed_api-20131030.js"></script>
+    <script type="text/javascript">
+      KF.embed.embedKlip({
+        profile : "fe9036c00c890cfddccd1693f2d382ab",
+        settings : {"width":634,"theme":"light","borderStyle":"round","borderColor":"#cccccc"},
+        title : "Github Status"
+      });
+    </script>
+  </body>
 </html>
