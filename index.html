@@ -53,8 +53,26 @@
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">Dashboard</h1>
-          <!-- embed github status dashboard klip  -->
-          <div id="kf-embed-container-fe9036c00c890cfddccd1693f2d382ab"></div>
+
+          <div class="row">
+            <!-- embed status klip  -->
+            <div class="col-xs-5" id="kf-embed-container-fe9036c00c890cfddccd1693f2d382ab"></div>
+
+            <!-- embed users & sessions by regions klip -->
+            <div class="col-xs-5" id="kf-embed-container-fa3c9eae82e5d83d2fd44c73a8c6c226"></div>
+          </div>
+
+          <div class="row">
+            <!-- embed reponse time klip -->
+            <div class="col-xs-8" id="kf-embed-container-410afe85083ecea98a9853b2180759ed"></div>
+            <div class="col-xs-3">
+              <!-- embed app server availability klip -->
+              <div id="kf-embed-container-3325bcd992088abe62143f6c788c3b2d"></div>
+
+              <!-- embed failure rate klip -->
+              <div id="kf-embed-container-ebe4b88cfde262e5f8842e49100791f2"></div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -66,6 +84,38 @@
         profile : "fe9036c00c890cfddccd1693f2d382ab",
         settings : {"width":634,"theme":"light","borderStyle":"round","borderColor":"#cccccc"},
         title : "Github Status"
+      });
+    </script>
+
+    <script type="text/javascript">
+      KF.embed.embedKlip({
+         profile : "410afe85083ecea98a9853b2180759ed",
+         settings : {"width":1000,"theme":"light","borderStyle":"round","borderColor":"#cccccc"},
+         title : "Profile Tools Response Time"
+      });
+    </script>
+
+    <script type="text/javascript">
+      KF.embed.embedKlip({
+         profile : "ebe4b88cfde262e5f8842e49100791f2",
+         settings : {"width":472,"theme":"light","borderStyle":"round","borderColor":"#cccccc"},
+         title : "Profile Tools Failure Rate"
+      });
+    </script>
+
+    <script type="text/javascript">
+      KF.embed.embedKlip({
+         profile : "3325bcd992088abe62143f6c788c3b2d",
+         settings : {"width":472,"theme":"light","borderStyle":"round","borderColor":"#cccccc"},
+         title : "Profile Tools App Server Availability"
+      });
+    </script>
+
+    <script type="text/javascript">
+      KF.embed.embedKlip({
+         profile : "fa3c9eae82e5d83d2fd44c73a8c6c226",
+         settings : {"width":472,"theme":"light","borderStyle":"round","borderColor":"#cccccc"},
+         title : "Profile Tools Users and Sessions by Region"
       });
     </script>
   </body>
